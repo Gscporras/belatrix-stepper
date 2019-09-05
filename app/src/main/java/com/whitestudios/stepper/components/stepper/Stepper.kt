@@ -7,9 +7,9 @@ import android.view.View
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager.widget.ViewPager
 import com.whitestudios.stepper.components.stepper.adapter.StepperAdapter
-import com.whitestudios.stepper.components.stepper.fragments.FirstFragment
-import com.whitestudios.stepper.components.stepper.fragments.SecondFragment
-import com.whitestudios.stepper.components.stepper.fragments.ThirdFragment
+import com.whitestudios.stepper.fragments.base.fragments.FirstFragment
+import com.whitestudios.stepper.fragments.base.fragments.SecondFragment
+import com.whitestudios.stepper.fragments.base.fragments.ThirdFragment
 
 class Stepper : ViewPager,
         FirstFragment.Listener,

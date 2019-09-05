@@ -3,9 +3,9 @@ package com.whitestudios.stepper.components.stepper.adapter
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
-import com.whitestudios.stepper.components.stepper.fragments.FirstFragment
-import com.whitestudios.stepper.components.stepper.fragments.SecondFragment
-import com.whitestudios.stepper.components.stepper.fragments.ThirdFragment
+import com.whitestudios.stepper.fragments.base.fragments.FirstFragment
+import com.whitestudios.stepper.fragments.base.fragments.SecondFragment
+import com.whitestudios.stepper.fragments.base.fragments.ThirdFragment
 
 class StepperAdapter (
         fm: FragmentManager,

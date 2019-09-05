@@ -1,4 +1,4 @@
-package com.whitestudios.stepper.components.stepper.fragments
+package com.whitestudios.stepper.fragments.base.fragments
 
 import android.os.Bundle
 import android.view.View
